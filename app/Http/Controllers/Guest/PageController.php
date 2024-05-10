@@ -15,8 +15,9 @@ class PageController extends Controller
         return view('home', compact('movies'));
     }
 
-    public function nuovaPagina()
+    public function piuVisti()
     {
-        return view('nuova-pagina');
+        $movies = Movie::where('vote', '>', 9)->get();
+        return view('home', compact('movies'));
     }
 }
