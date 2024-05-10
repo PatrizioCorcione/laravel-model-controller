@@ -1,3 +1,7 @@
-<footer>
-    <h1>Footer</h1>
+<footer class="p-3">
+    <div class="row row-cols-3 ">
+        <div class="col">
+
+        </div>
+    </div>
 </footer>

@@ -4,5 +4,26 @@
 }
 .card{
     max-height: 300px;
+    background: transparent;
+    color: rgb(84, 0, 0);
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
 }
-
+a{
+    text-decoration: none;
+    color: red;
+}
+body{
+    background-color: rgb(62, 62, 62);
+}
+.loader {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+      radial-gradient(farthest-side,#f03355 95%,#0000) 50% 1px/12px 12px no-repeat,
+      radial-gradient(farthest-side,#0000 calc(100% - 14px),#ccc 0);
+    animation: l9 1s infinite linear;
+  }
+  @keyframes l9 {to{transform: rotate(1turn)}}
